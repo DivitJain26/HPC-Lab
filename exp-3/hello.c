@@ -1,3 +1,10 @@
+/*
+ * Experiment 3: OpenMP Hello World - every thread prints its thread ID
+ *
+ * Compile: gcc -fopenmp hello.c -o hello
+ * Run:     OMP_NUM_THREADS=4 ./hello
+ */
+
 #include <stdio.h>
 #include <omp.h>
 

@@ -1,0 +1,30 @@
+# Compiled binaries (one per experiment, no extension)
+exp-2/program
+exp-2/program2
+exp-3/hello
+exp-4/parallel
+exp-5/private
+exp-6/private_clause
+exp-7/static_sched
+exp-8/series
+exp-9/hello_mpi
+exp-10/array_mpi
+exp-11/sum_mpi
+exp-12/ring_sum
+
+# Object files and other build output
+*.o
+*.out
+*.a
+*.so
+a.out
+
+# SLURM job output
+out_*.txt
+slurm-*.out
+
+# Editor / OS files
+*.swp
+*~
+.vscode/
+.DS_Store

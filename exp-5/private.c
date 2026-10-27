@@ -1,3 +1,11 @@
+/*
+ * Experiment 5: OpenMP firstprivate clause - each thread gets its own copy of val,
+ *               initialised with the value from before the parallel region
+ *
+ * Compile: gcc -fopenmp private.c -o private
+ * Run:     ./private
+ */
+
 #include <stdio.h>
 #include <omp.h>
 

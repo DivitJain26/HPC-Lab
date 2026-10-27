@@ -1,3 +1,10 @@
+/*
+ * Experiment 2: POSIX threads - 4 threads each print the CPU core they run on
+ *
+ * Compile: gcc program2.c -o program2 -lpthread
+ * Run:     ./program2
+ */
+
 #define _GNU_SOURCE
 #include <stdio.h>
 #include <pthread.h>

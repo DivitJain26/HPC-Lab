@@ -1,3 +1,10 @@
+/*
+ * Experiment 6: OpenMP private clause - each thread gets its own uninitialised copy of val
+ *
+ * Compile: gcc -fopenmp private_clause.c -o private_clause
+ * Run:     ./private_clause
+ */
+
 #include <stdio.h>
 #include <omp.h>
 

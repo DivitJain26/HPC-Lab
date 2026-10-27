@@ -1,3 +1,11 @@
+/*
+ * Experiment 8: OpenMP tasks - one thread creates two tasks (series of 2 and
+ *               series of 4), any thread in the team may run them
+ *
+ * Compile: gcc -fopenmp series.c -o series
+ * Run:     ./series
+ */
+
 #include <stdio.h>
 #include <omp.h>
 

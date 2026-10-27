@@ -1,3 +1,13 @@
+/*
+ * Experiment 7: OpenMP static scheduling - vector addition c[i] = a[i] + b[i]
+ *               with schedule(static, CHUNK)
+ *
+ * Compile: gcc -fopenmp static_sched.c -o static_sched
+ * Run:     ./static_sched            (defaults: N = 20, CHUNK = 4)
+ *          ./static_sched 20 4       (N = 20 iterations, CHUNK = 4)
+ *          OMP_NUM_THREADS=4 ./static_sched 1000000 1000
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
